@@ -4,6 +4,7 @@ import path from "path";
 
 export default defineConfig({
   // Remove the server configuration as Vercel will handle this
+  base: '/',
   plugins: [react()],
   build: {
     sourcemap: true,
