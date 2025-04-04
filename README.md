@@ -36,75 +36,38 @@ npm install
 npm run dev
 ```
 
-## 🛠️ Tech Stack
+**Edit a file directly in GitHub**
 
-- **Frontend Framework**: React 18
-- **Build Tool**: Vite
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **UI Components**: Radix UI
-- **HTTP Client**: Axios
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## 📁 Project Structure
+**Use GitHub Codespaces**
 
-```
-mcp-server-inspector/
-├── src/
-│   ├── components/     # React components
-│   │   └── ui/        # Reusable UI components
-│   ├── services/      # API and business logic
-│   ├── types/         # TypeScript definitions
-│   └── utils/         # Helper functions
-├── public/            # Static assets
-└── tests/            # Test files
-```
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## 📝 Usage
+## What technologies are used for this project?
 
-1. Launch the application
-2. Enter your MCP server URL
-3. Add API key (if required)
-4. Click "Test Connection"
-5. Review test results
-6. Inspect API responses
+This project is built with:
 
-## 🔧 Available Scripts
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server |
-| `npm run build` | Build for production |
-| `npm run preview` | Preview production build |
-| `npm run test` | Run tests |
-| `npm run lint` | Run linting |
+## How can I deploy this project?
 
-## 🤝 Contributing
+Simply open [Lovable](https://lovable.dev/projects/8fbbdb79-67b2-4f8a-9844-6c304a02cb8e) and click on Share -> Publish.
 
-1. Fork the repository
-2. Create feature branch
-   ```bash
-   git checkout -b feature/amazing-feature
-   ```
-3. Commit changes
-   ```bash
-   git commit -m 'Add amazing feature'
-   ```
-4. Push to branch
-   ```bash
-   git push origin feature/amazing-feature
-   ```
-5. Open Pull Request
+## Can I connect a custom domain to my Lovable project?
 
-## 📄 License
+Yes it is!
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-## 👏 Acknowledgments
-
-- [Vite](https://vitejs.dev/)
-- [Radix UI](https://www.radix-ui.com/)
-- [Tailwind CSS](https://tailwindcss.com/)
-
----
-
-Made with ❤️ by [Vaibhav Tayal]
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
